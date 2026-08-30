@@ -11,9 +11,12 @@ quantized_weights = quantize_tensor(weights, scale)
 dequantized_weights = dequantize_tensor(quantized_weights, scale)
 
 print("Original Weights: ", weights)
+print("Original Weights Dtype: ", weights.dtype)
 print("Scale Factor: ", scale)
 print("Quantized Weights: ", quantized_weights)
+print("Quantized Weights Dtype: ", quantized_weights.dtype)
 print("Dequantized Weights: ", dequantized_weights)
+print("Dequantized Weights Dtype: ", dequantized_weights.dtype)
 
 #Errors
 

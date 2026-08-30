@@ -11,7 +11,7 @@ def cal_scale(tensor):
 def quantize_tensor(tensor, scale):
     quantized_tensor = np.round(tensor/scale)
     quantized_tensor = np.clip(quantized_tensor, -127, 127)
-    return quantized_tensor
+    return quantized_tensor.astype(np.int8)
 
 #Step3: Dequantize the tensor back to its original form
 def dequantize_tensor(quantized_tensor, scale):
