@@ -1,0 +1,19 @@
+{
+    "experiment": "distilgpt2_fp32_baseline",
+    "model": "distilgpt2",
+    "quantization": "none",
+    "precision": "FP32",
+    "device": "cpu",
+    "seed": 42,
+    "prompt": "Artificial intelligence is changing the way people work and learn.What is llm and how does it work?",
+    "max_new_tokens": 50,
+    "parameter_count": 81912576,
+    "trainable_parameter_count": 81912576,
+    "model_dtype": "torch.float32",
+    "parameter_memory_mb": 312.4717,
+    "input_token_count": 22,
+    "generated_token_count": 50,
+    "latency_seconds": 1.589911,
+    "tokens_per_second": 31.4483,
+    "generated_text": "Artificial intelligence is changing the way people work and learn.What is llm and how does it work? What is the difference between llm and llm? What is the difference between llm and llm? What is the difference between llm and llm? What is the difference between llm and llm? What is the difference between ll"
+}
